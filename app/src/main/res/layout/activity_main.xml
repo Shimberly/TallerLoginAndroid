@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <TextView
+        android:id="@+id/usernameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userTxt" />
+
+    <EditText
+        android:id="@+id/usernameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/userTxtHint"
+        android:inputType="text"
+        android:layout_below="@id/usernameTxt"/>
+
+    <TextView
+        android:id="@+id/passwordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passTxt"
+        android:layout_below="@id/usernameBox"/>
+
+    <EditText
+        android:id="@+id/passwordBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passTxtHint"
+        android:inputType="text"
+        android:layout_below="@id/passwordTxt"/>
+
+    <TextView
+        android:id="@+id/codeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/codeTxt"
+        android:layout_below="@id/passwordBox"/>
+
+    <EditText
+        android:id="@+id/codeBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codeTxtHint"
+        android:inputType="text"
+        android:layout_below="@id/codeTxt"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="202dp"
+        android:text="@string/loginBtn"
+        android:onClick="sendMessage"/>
+
+</RelativeLayout>

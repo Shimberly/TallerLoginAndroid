@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inicio Sesión</string>
+    <string name="userTxt">Usuario</string>
+    <string name="passTxt">Contraseña</string>
+    <string name="userTxtHint">Por favor ingresa tu usuario</string>
+    <string name="passTxtHint">Por favor ingresa tu contraseña</string>
+    <string name="codeTxt">Código</string>
+    <string name="codeTxtHint">Por favor ingresa tu código</string>
+    <string name="loginBtn">Iniciar Sesión</string>
+</resources>
